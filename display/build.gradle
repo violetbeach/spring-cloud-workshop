@@ -29,7 +29,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.springframework.cloud:spring-cloud-starter-netflix-hystrix')
     compile('org.springframework.cloud:spring-cloud-starter-netflix-ribbon')
-    compile('org.springframwork.retry:spring-retry:1.2.2.RELEASE')
+    compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+    compile('org.springframework.retry:spring-retry')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
